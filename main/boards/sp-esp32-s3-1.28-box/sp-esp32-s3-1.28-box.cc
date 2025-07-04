@@ -112,7 +112,7 @@ private:
         rtc_gpio_set_direction(GPIO_NUM_3, RTC_GPIO_MODE_OUTPUT_ONLY);
         rtc_gpio_set_level(GPIO_NUM_3, 1);
 
-        power_save_timer_ = new PowerSaveTimer(-1, 60, 290);
+        power_save_timer_ = new PowerSaveTimer(-1, 600, -1);
         power_save_timer_->OnEnterSleepMode([this]() {
             ESP_LOGI(TAG, "Enabling sleep mode");
             display_->SetChatMessage("system", "");
