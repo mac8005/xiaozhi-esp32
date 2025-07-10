@@ -134,24 +134,5 @@ Feishuドキュメントチュートリアルをご覧ください：
 👉 [バックエンド操作ビデオチュートリアル（旧インターフェース）](https://www.bilibili.com/video/BV1jUCUY2EKM/)
 
 ## 関連オープンソースプロジェクト
+- [mac8005/xiaozhi-mcp-hacs](https://github.com/mac8005/xiaozhi-mcp-hacs) — Home Assistant HACS integration (control Home Assistant devices via MCP)
 
-個人PCでサーバーをデプロイする場合は、以下のオープンソースプロジェクトを参照してください：
-
-- [xinnan-tech/xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) Pythonサーバー
-- [joey-zhou/xiaozhi-esp32-server-java](https://github.com/joey-zhou/xiaozhi-esp32-server-java) Javaサーバー
-- [AnimeAIChat/xiaozhi-server-go](https://github.com/AnimeAIChat/xiaozhi-server-go) Golangサーバー
-
-シャオジー通信プロトコルを利用した他のクライアントプロジェクト：
-
-- [huangjunsen0406/py-xiaozhi](https://github.com/huangjunsen0406/py-xiaozhi) Pythonクライアント
-- [TOM88812/xiaozhi-android-client](https://github.com/TOM88812/xiaozhi-android-client) Androidクライアント
-
-## スター履歴
-
-<a href="https://star-history.com/#78/xiaozhi-esp32&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=78/xiaozhi-esp32&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=78/xiaozhi-esp32&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=78/xiaozhi-esp32&type=Date" />
- </picture>
-</a> 
