@@ -17,6 +17,8 @@ set(SOURCES "audio_codecs/audio_codec.cc"
             "iot/thing.cc"
             "iot/thing_manager.cc"
             "mcp_server.cc"
+            "mcp_news_tools.cc"
+            "news_providers.cc"
             "system_info.cc"
             "application.cc"
             "ota.cc"
@@ -115,6 +117,8 @@ elseif(CONFIG_BOARD_TYPE_ESP32S3_Touch_LCD_1_46)
     set(BOARD_TYPE "esp32-s3-touch-lcd-1.46")
 elseif(CONFIG_BOARD_TYPE_ESP32S3_Touch_LCD_3_5)
     set(BOARD_TYPE "esp32-s3-touch-lcd-3.5")
+elseif(CONFIG_BOARD_TYPE_ESP32S3_Touch_LCD_3_5B)
+    set(BOARD_TYPE "waveshare-s3-touch-lcd-3.5b")
 elseif(CONFIG_BOARD_TYPE_ESP32C6_LCD_1_69)
     set(BOARD_TYPE "waveshare-c6-lcd-1.69")
 elseif(CONFIG_BOARD_TYPE_ESP32P4_NANO)
