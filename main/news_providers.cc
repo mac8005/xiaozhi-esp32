@@ -17,7 +17,6 @@
 // Reliable sources with HTTPS and good stability
 const std::map<std::string, std::vector<std::string>> RSS_FEEDS = {
     {"general", {
-        "https://www.srf.ch/news/bnf/rss/1646",
         "https://feeds.skynews.com/feeds/rss/world.xml",
         "https://www.yahoo.com/news/rss",
         "https://www.theguardian.com/world/rss",
