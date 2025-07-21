@@ -119,10 +119,11 @@ NewsResponse FreeNewsProvider::SearchNews(const NewsSearchParams& params) {
             }
         
         auto& board = Board::GetInstance();
-        auto http = board.CreateHttp();
+        auto network = board.GetNetwork();
+        auto http = network->CreateHttp(0);
             
             // Configure HTTP headers for better compatibility
-            ConfigureHttpHeaders(http);
+            ConfigureHttpHeaders(http.get());
         
         if (!http->Open("GET", feed_url)) {
                 ESP_LOGW(TAG, "Failed to open HTTP connection to RSS feed: %s (attempt %d)", 
